@@ -1,0 +1,57 @@
+{
+  "data_mode": "synthetic",
+  "noise": "laplace",
+  "selected_by": "run_grid_search.py",
+  "selection_metric": "mse_mean_raw",
+  "model_config": {
+    "hidden_units": [
+      16,
+      16,
+      16
+    ],
+    "activation": "gelu",
+    "constrain_phi": false,
+    "feature_mode": "raw"
+  },
+  "training_config": {
+    "learning_rate": 0.003,
+    "weight_decay": 0.0,
+    "smoothness_weight": 0.0,
+    "epochs": 2500,
+    "patience": 400,
+    "eval_every": 10,
+    "valid_from_index": 1,
+    "checkpoint_metric": "mse_mean_raw"
+  },
+  "best_metrics": {
+    "stage": "multistart",
+    "init_seed": 4,
+    "best_epoch": 1390,
+    "best_loss": 53.373687744140625,
+    "best_metric": 0.033577420321914055,
+    "hidden_units": "[16, 16, 16]",
+    "activation": "gelu",
+    "constrain_phi": false,
+    "feature_mode": "raw",
+    "epochs": 2500,
+    "learning_rate": 0.003,
+    "weight_decay": 0.0,
+    "smoothness_weight": 0.0,
+    "valid_from_index": 1,
+    "patience": 400,
+    "eval_every": 10,
+    "checkpoint_metric": "mse_mean_raw",
+    "mse_c": 0.0741347074508667,
+    "rmse_c": 0.27227689481641054,
+    "mae_c": 0.2371429055929184,
+    "mse_phi": 0.0014196407282724977,
+    "rmse_phi": 0.03767812002041102,
+    "mae_phi": 0.03481387346982956,
+    "mse_b": 0.025177912786602974,
+    "rmse_b": 0.15867549523036936,
+    "mae_b": 0.12856031954288483,
+    "mse_mean_raw": 0.033577420321914055,
+    "mse_mean_norm": 0.1339766704306783,
+    "manual_name": NaN
+  }
+}
