@@ -4,9 +4,9 @@ This repository contains Jupyter notebooks accompanying the paper *Neural Networ
 
 The repository includes three notebooks covering the following experiments:
 
-- Synthetic data with Gaussian noise ([`01_GAUSS_SYNTHETIC.ipynb`](01_GAUSS_SYNTHETIC.ipynb))
-- Synthetic data with Laplace noise ([`02_LAPLACE_SYNTHETIC_GRID.ipynb`](02_LAPLACE_SYNTHETIC_GRID.ipynb))
-- Real-data experiments using electricity spot prices ([`03_REAL_DATA.ipynb`](03_REAL_DATA.ipynb))
+- synthetic data with Gaussian noise ([`01_GAUSS_SYNTHETIC.ipynb`](01_GAUSS_SYNTHETIC.ipynb))
+- synthetic data with Laplace noise ([`02_LAPLACE_SYNTHETIC_GRID.ipynb`](02_LAPLACE_SYNTHETIC_GRID.ipynb))
+- real-data experiments using electricity spot prices ([`03_REAL_DATA.ipynb`](03_REAL_DATA.ipynb)).
 
 The real-data experiments use the following Kaggle dataset:
 
