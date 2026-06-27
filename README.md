@@ -1,6 +1,6 @@
 # NEURAL NETWORK-BASED ESTIMATION OF TIME-DEPENDENT PARAMETERS IN AR(p) PROCESSES
 
-This repository contains Jupyter notebooks accompanying the paper *Neural Network-Based Estimation of Time-Dependent Parameters in AR(p) Processes*.
+This repository contains Jupyter notebooks accompanying the manuscript *Neural Network-Based Estimation of Time-Dependent Parameters in AR(p) Processes*.
 
 The repository includes three notebooks covering the following experiments:
 
